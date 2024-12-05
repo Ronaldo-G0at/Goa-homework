@@ -1,0 +1,7 @@
+num1 = float(input("შეიტანეთ პირველი რიცხვი: "))
+num2 = float(input("შეიტანეთ მეორე რიცხვი: "))
+print (num1+num2)
+print (num1-num2)
+print (num1 * num2)
+print (num1/ num2)
+print(num1** num2)

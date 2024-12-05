@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <h1>Programmer Job Application</h1>
+        <form action="submit_application.php" method="POST" enctype="multipart/form-data">
+            Full Name:<br>
+            <input type="text" name="fullName" required><br><br>
+
+            Email Address:<br>
+            <input type="email" name="email" required><br><br>
+
+            Phone Number:<br>
+            <input type="tel" name="phone" required><br><br>
+
+            Location (City, Country):<br>
+            <input type="text" name="location" required><br><br>
+
+            Programming Skills (comma separated):<br>
+            <input type="text" name="skills" required><br><br>
+
+            Years of Experience:<br>
+            <select name="experience" required>
+                <option value="1-3">1-3 years</option>
+                <option value="3-5">3-5 years</option>
+                <option value="5+">5+ years</option>
+            </select><br><br>
+
+            GitHub Profile linki:<br>
+            <input type="url" name="github" required><br><br>
+
+            Portfolio :<br>
+            <input type="url" name="portfolio" required><br><br>
+
+            Upload Resume:<br>
+            <input type="file" name="resume" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
