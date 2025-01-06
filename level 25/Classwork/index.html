@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA BEST</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        img {
+            width: 150px;
+            margin: 10px;
+            cursor: pointer;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        img:hover {
+            transform: scale(1.1);
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>GOA BEST</h1>
+    <p>დააჭირეთ ფოტოს მის შესაცვლელად!</p>
+    <img src="../Classwork/images/images.jpg" alt="Photo 1" onclick="changeImage(this, 'photo2.jpg')">
+    <img src="../Classwork/images/s.jpg" alt="Photo 2" onclick="changeImage(this, 'photo3.jpg')">
+    <img src="../Classwork/images/Screenshot 2025-01-05 145355.png" alt="Photo 3" onclick="changeImage(this, 'photo1.jpg')">
+
+    <button onclick="alert('GOA BEST')">დააჭირეთ აქ!</button>
+
+    <script>
+        function changeImage(element, newSrc) {
+            element.src = newSrc;
+        }
+    </script>
+</body>
+</html>

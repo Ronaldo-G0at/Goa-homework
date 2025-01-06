@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            width: 150px;
+            margin: 10px;
+            cursor: pointer;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        img:hover {
+            transform: scale(1.1);
+            border-color: green;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>ბოსტნეულის მაღაზია</h1>
+    <p>დააჭირეთ ბოსტნეულის სხვა პოტოს სანახავათ</p>
+    <img src="../Homework/images/carrot.jpg" alt="Carrot" onclick="ChangeImage(this, '../Homework/images/tomato.jpg')">
+    <img src="../Homework/images/cucu.jpg" alt="Cucumber" onclick="ChangeImage(this, '../Homework/images/spin.jpg')">
+    <img src="../Homework/images/download.jpg" alt="Download" onclick="ChangeImage(this, '../Homework/images/potato.jpg')">
+    <img src="../Homework/images/spin.jpg" alt="Spinach" onclick="ChangeImage(this, '../Homework/images/carrot.jpg')">
+    <script>
+        function ChangeImage(element, newSrc){
+            element.src = newSrc;
+        }
+    </script>
+
+
+
+</body>
+</html>
