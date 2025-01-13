@@ -1,0 +1,27 @@
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+
+#main-title {
+    text-align: center;
+    color: green;
+}
+
+
+.intro-text {
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+#click-me-button {
+    font-size: 14px;
+}
+
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+}
