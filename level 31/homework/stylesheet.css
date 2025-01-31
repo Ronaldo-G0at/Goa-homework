@@ -1,0 +1,45 @@
+.block {
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.block1 {
+    background-color: #ff0000;
+}
+
+.block2 {
+    background-color: #00ff00;
+}
+
+.block3 {
+    background-color: #0000ff;
+}
+
+.block4 {
+    background-color: #ffff00;
+}
+
+.block5 {
+    background-color: #ff00ff;
+}
+
+.block6 {
+    background-color: #00ffff;
+}
+
+.block7 {
+    background-color: #ffa500;
+}
+
+.block8 {
+    background-color: #800080;
+}
+
+.block9 {
+    background-color: #008080;
+}
+
+.block10 {
+    background-color: #000000;
+}
