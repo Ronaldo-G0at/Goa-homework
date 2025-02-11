@@ -1,0 +1,36 @@
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+
+.link-list li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+
+.link-list li:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 102, 0);
+    background-color: #dadada;
+}
+
+.link-list li:active {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #bf00ff; 
+    background-color: #f1f1f1;
+}
