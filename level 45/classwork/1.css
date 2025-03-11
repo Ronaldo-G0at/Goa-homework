@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.main-content {
+    display: flex;
+    flex: 1;
+    background-color: yellow;
+}
+.menu {
+    background-color: #f4f4f4;
+    width: 200px;
+    padding: 15px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+

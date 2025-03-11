@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    height: 300px;
+    flex-direction: row-reverse;
+}
+.item {
+    flex: 1;
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(2) {
+    flex: 2;
+    align-self: flex-end;
+}
+
+.container.vertical {
+    flex-direction: column;
+}
+
+.container.center-items {
+    justify-content: center;
+    align-items: center;}
