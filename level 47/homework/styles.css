@@ -1,0 +1,131 @@
+/* 2) Center a Div Horizontally */
+.center-div {
+    width: 300px;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 3) Move an Image to the Right */
+.right-image {
+    float: right;
+    margin-left: 20px;
+}
+
+/* 4) Stick a Header at the Top */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 60px; /* To prevent content from being hidden behind header */
+}
+
+/* 5) Move a Button to the Bottom of a Div */
+.container {
+    position: relative;
+    height: 200px;
+    background-color: lightgray;
+    margin-top: 80px;
+}
+
+.bottom-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 6) Place Text Over an Image */
+.image-container {
+    position: relative;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+}
+
+/* 7) Fix a Footer to the Bottom of the Page */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 8) Move a Box Slightly Up */
+.move-up {
+    position: relative;
+    top: -20px;
+    background-color: lightcoral;
+    padding: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* 9) Align Two Elements Side by Side */
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.side-by-side > div {
+    width: 48%;
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 10) Float an Image to the Left */
+.left-float {
+    float: left;
+    margin-right: 20px;
+}
+
+/* 11) Add Space Between Two Elements */
+.space-between {
+    position: relative;
+    height: 150px;
+    background-color: lightgoldenrodyellow;
+    margin-top: 20px;
+}
+
+.space-between > div {
+    position: absolute;
+    top: 20px;
+    width: 45%;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.space-between > div:first-child {
+    left: 0;
+}
+
+.space-between > div:last-child {
+    right: 0;
+}
