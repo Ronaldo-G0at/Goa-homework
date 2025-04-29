@@ -1,0 +1,47 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.trail-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background: deepskyblue;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    }
+    25% {
+    transform: translate(100px, -80px) scale(0.8);
+    opacity: 0.6;
+    }
+    50% {
+    transform: translate(200px, -130px) scale(1.2);
+    opacity: 1;
+    }
+    75% {
+    transform: translate(300px, -80px) scale(0.8);
+    opacity: 0.6;
+    }
+    100% {
+    transform: translate(400px, 0) scale(1);
+    opacity: 0;
+    }
+}
