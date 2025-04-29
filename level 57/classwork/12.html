@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .parent {
+    display: flex;
+    }
+    .child {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    }
+    @media (max-width: 800px) {
+    .parent {
+        flex-direction: column;
+    }
+    }
+</style>
+</head>
+<body>
+<div class="parent">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+</div>
+</body>
+</html>
